@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>nethouse test</title>
+</head>
+<body>
+<div class="container">
+    <form action="" class="form" id="form">
+        <div class="form__row">
+            <label for="name">ФИО</label>
+            <input type="text" name="name" id="name" class="form__input" placeholder="Иванов Иван Петрович">
+        </div>
+
+        <div class="form__row">
+            <label for="email">Email *</label>
+            <input type="text" name="email" id="email" required class="form__input" placeholder="mail@gmail.com">
+        </div>
+
+        <div class="form__row">
+            <label for="phone">Телефон</label>
+            <input type="text" name="phone" id="phone" class="form__input" placeholder="+7XXXXXXXXXX">
+        </div>
+        <div class="form__errors">Неверно заполнено поле</div>
+
+        <button type="submit" class="form__btn">Отправить</button>
+    </form>
+</div>
+<script src="./js/script.js"></script>
+</body>
+</html>
